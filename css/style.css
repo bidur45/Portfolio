@@ -1,0 +1,836 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+
+/* css variables */
+@import url(./partials/variable.css);
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#fff;
+    
+
+  
+}
+/* start navigation section */
+#navbar{
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    
+}
+
+#navbar .logo img{
+    height: 60px;
+    width: 220px;
+   
+}
+#navbar .logo{
+    width: 100%;
+    margin: 10px;
+   
+    
+
+}
+ #navbar .content{
+     display: flex;
+   margin-left: 400px;
+    color:#fff;
+    padding-top: 15px;
+    padding-bottom: 7px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "ubuntu",sans-serif;
+    opacity: 0.8;
+    float: right;
+    padding-right: 20px;
+    
+    
+    
+    
+}  
+
+
+#navbar .content .nav-link{
+    
+    color:var(--title-color);
+    
+}
+
+#navbar .content .nav-link:hover{
+
+    background:var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+ /* end navigation section */
+
+hr{
+    margin:0px;
+    width:100%;
+}
+/* start home section */
+#home{
+    background-color:  #000;
+      margin:0px;
+      height:80%;
+}
+#home .left-column{
+
+    float:left;
+    margin:30px;
+    margin-left:60px;
+}
+
+ 
+#home .home-content .text-1{
+    color:var(--title-color);
+
+
+    padding-top: 55px;
+    font-size: 50px;
+    font-weight:200;
+    font-family: "ubuntu",sans-serif;
+   
+}
+#home .home-content .text-2{
+    color:var(--title-color);
+
+    font-family: "ubuntu",sans-serif;
+    font-size: 50px;
+    font-weight:200;
+}
+#home .home-content .text-3{
+    color:var(--title-color);
+
+
+    font-family: "ubuntu",sans-serif;
+    font-size: 35px;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.button{
+    padding: .8rem 2.2rem;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Abel",sans-serif;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button{
+    background-clip: padding-box;
+   transition: background.6s ease;
+   box-shadow: var(--box-shadow);
+    background: var(--gradient-color);
+    color: whitesmoke;
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+
+}
+.button.primary-button::after{
+position: absolute;
+top: -2px; left: -2px;
+}
+
+ #home .home-content .right-column img{
+    margin-top: 10px;
+    max-width:500px;
+    float:right;
+    margin-right:150px;
+} 
+.accounts ul{
+    display: flex;
+    padding: 25px;
+    margin: 15px;
+    font-family: "ubuntu",sans-serif;
+    color: var(--title-color);
+}
+
+.accounts ul .nav-link{
+    color: var(--title-color);
+    padding-left: 1.5px;
+    padding-right: 35px;
+
+}
+/* end home section */
+
+
+/* start about section */
+
+#about-area{
+    background-color:white;
+    width: 100%;
+    height: 80%; 
+      
+}
+
+
+  .about{
+      max-width: 1000px;
+      background-color: aliceblue;
+      margin: 50px  50px 50px 50px;
+      margin-left: 250px;
+      border-radius: 20px;
+  }
+
+   #about-area .left-section {
+
+   
+    max-width:  50%;
+    margin :20px 0px 0px 0px;
+
+    float:left;
+}
+.left-section img{
+    margin:10px;
+    padding:60px;
+    
+} 
+#about-area .right-section{
+     
+    
+     margin:0px 100px 0px 0px;
+    padding-top: 100px;
+        
+    padding-left: 500px;
+
+} 
+ 
+
+#about-area  h1{
+
+    font-size: 30px;
+    text-align:left;
+    font-family: "ubuntu",sans-serif;
+    color:#000;
+    /* text-decoration: underline; */
+
+    
+}
+
+#about-area   p{
+    padding-top: 5px;
+    text-align:left;
+    font-family: "ubuntu",sans-serif;
+    color:#000;
+    font-size: 15px;
+    padding-bottom: 10px;
+    
+} 
+
+
+.btn{
+    border: 2px white;
+    border-radius: 5px;
+    background-color:#000;
+    color: #fff;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+/* end about section */
+
+
+/* start skills section*/
+#skill{
+    background-color: #fff;
+    height: 90%;
+    width: 100%;
+}
+#skill h1{
+    color: #fff;
+
+
+}
+
+#skill .container{
+    margin: 40px;
+    margin-left: 100px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    height: 80%;
+    width: 100%;
+}
+
+#skill .container h2{
+    padding: 50px;
+    font-size:  30px;
+    font-family: "ubuntu",sans-serif;
+}
+#skill .container .logo{
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#skill .container img{
+    border-radius: 50%;
+}
+#skill .container .left-column{
+    /* display: flex; */
+    max-width: 500px;
+    float: left;
+    height: 80%;
+    
+}
+
+#skill .container  .content{
+    display: flex;
+}
+
+
+#skill .container  .content-1{
+    display: flex;
+}
+
+
+ .logo-2{ 
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}
+#skill .container .left-column .content-1 .logo-2 img{
+    border-radius: 50%;
+
+}
+
+
+#skill .container h3{
+    /* display: flex; */
+    margin: 5px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: "ubuntu",sans-serif;
+
+
+}
+#skill .container p{
+    
+    font-size: 12px;
+    padding-left: 15px;
+    font-family: "ubuntu",sans-serif;
+
+
+}
+
+
+#skill .container .right-column{
+    float:left;
+    width: 100%;
+    max-width: 600px;
+    height: 75%;
+    padding-left: 50px;
+}
+
+.right-column li{
+    margin: 20px 20px;
+    
+    
+}
+
+.right-column .bar{
+    background: #353b48;
+    display: block;
+    height: 4px;
+    /* border: 1px solid rgb(0, 0, 0,0.3); */
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow:0 0 10px #120fd3b3 ;
+}
+
+.bar span{
+    height: 4px;
+    float: left;
+    background: #2187e7;
+
+}
+
+.html{
+    width: 90%;
+   animation: 2s;
+}
+.css{
+    width: 70%;
+
+}
+.javascript{
+    width:50%;
+}
+
+.php{
+    width: 60%;
+}
+/*end skills section  */
+
+
+
+
+    /* start services-section */
+ #services{
+    background-color: #fff;
+    height: 90%;
+    width: 100%;
+ }
+
+ #services h1{
+     color: #fff;
+ }
+    #services .container{
+        background-color:aliceblue;
+        margin: 40px;
+        border-radius: 15px;
+        height: 80%;
+        width: 100%;
+        margin-left: 100px;
+    }
+  
+#services .container h2{
+    padding-top: 60px;
+    padding-left: 60px;
+
+    
+    font-size:  30px;
+    font-family: "ubuntu",sans-serif;
+}
+
+#services .container  .intro p{
+    
+    padding-left: 70px;
+    padding-top: 10px;
+    font-family: "ubuntu",sans-serif;
+} 
+
+#services .container .box-1{
+    margin-top:45px;
+    margin-left: 140px;
+    margin-right: 20px;
+    height: 50%;
+   max-width: 320px;
+   background-color: rgb(26, 22, 22);    
+    
+    float: left;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#services .container .box-2{
+    margin-top:45px;
+    background-color: rgb(26, 22, 22);    
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+
+    margin-right: 20px;
+    height: 50%;
+   max-width: 320px;
+   
+    
+    float: left;
+
+}
+
+
+#services .container .box-3{
+    margin-top:45px;
+    background-color: rgb(26, 22, 22);
+    margin-right: 10px;
+    height: 50%;
+   max-width: 320px;
+   color: #fff;
+   border-radius: 15px;
+   text-align: center;
+
+   
+    float: left;
+
+}
+
+#services .container .box-1 .box1-1{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: black;
+    background-color: #fff;
+}
+
+#services .container .box-2 .box2-1{
+    text-align: center;
+    margin-top: 30px;
+
+    margin-left: 150px;
+    
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: black;
+    background-color: #fff;
+}
+#services .container .box-3 .box3-1{
+    text-align: center;
+    margin-top: 30px;
+
+    margin-left: 150px;
+    
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: black;
+    background-color: #fff;
+}
+ #services .container .box-2 .btn{
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+   margin-bottom: 5px;
+   font-family: "ubuntu",sans-serif;
+
+} 
+#services .container .box-1 .btn{
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+   margin-bottom: 5px;
+   font-family: "ubuntu",sans-serif;
+
+} 
+
+#services .container .box-3 .btn{
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+   margin-bottom: 5px;
+   font-family: "ubuntu",sans-serif;
+
+} 
+#services .container h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: "ubuntu",sans-serif;
+     padding-top: 10px;
+
+}
+
+#services .container.box-1  p{
+    text-align: left;
+    padding-right: 12px;
+    font-size: 10px;
+    font-family: "ubuntu",sans-serif;
+     padding-top: 10px;
+
+}
+
+#services .container.box-2 p{
+    text-align: center;
+    font-size: 10px;
+    font-family: "ubuntu",sans-serif;
+     padding-top: 10px;
+
+}
+
+#services .container.box-3  p{
+    text-align: center;
+    font-size: 10px;
+    font-family: "ubuntu",sans-serif;
+     padding-top: 10px;
+
+}
+
+
+
+
+
+
+/* end services area */
+
+/* start contact section */
+#contact {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+
+}
+#contact h2{
+    color:white;
+}
+
+
+
+#contact  .container{
+    margin-top: 10px;
+    margin:  50px;
+    border-radius: 15px;
+    margin-left: 120px;
+    background-color: aliceblue;
+    height: 80%;
+    width: 80%;
+    
+}
+#contact h1{
+
+    font-size: 30px;
+        text-align: left;
+        color:#000;
+        font-family:"ubuntu",sans-serif;
+        margin-top: 40px;
+        padding-top: 40px;
+        padding-left: 80px;
+    
+}
+#contact p{
+    text-align:left;
+    padding-left: 100px ;
+    font-size: 15px;
+    font-family:"ubuntu",sans-serif;
+}
+
+#contact .contactinfo{
+    margin: 20px;
+    margin-left: 100px;
+    padding: 20px;
+    padding-bottom: 20px;
+    max-width: 500px;
+    float: left;
+    
+}
+#contact .contactinfo h2{
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family:"ubuntu",sans-serif;
+    color: #000;
+    
+
+}
+ #contact .contactinfo .address{
+    margin-bottom: 10px;
+    display: flex;
+    font-family:"ubuntu",sans-serif; 
+     padding-left: 10px;
+}
+ 
+#contact .contactinfo .address img{
+    border-radius: 50%;
+}
+#contact .contactinfo .address .location{
+    padding-left: 8px;
+}
+
+#contact .contactinfo .address .location h6{
+    font-size: 25px;
+    
+}
+#contact .contactinfo .phone {
+display: flex;
+margin-top: 30px;
+margin-bottom: 10px;
+font-family:"ubuntu",sans-serif;
+}
+
+#contact .contactinfo .phone img{
+    border-radius: 50%;
+
+}
+
+#contact .contactinfo .phone .call{
+padding-left: 8px;
+}
+
+#contact .contactinfo .phone .call h6{
+    font-size: 25px;
+}
+
+#contact .contactinfo .gmail{
+    
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family:"ubuntu",sans-serif;
+}
+
+#contact .contactinfo .gmail img{
+    border-radius: 50%;
+}
+
+
+
+#contact .contactinfo .gmail .mail h6{
+    padding-left: 8px;
+    font-size: 25px;
+}
+
+
+#contact .message{
+    float: left;
+    margin-left: 350px  ;
+    max-width: 500px;
+    width: 30%;
+     background-color:rgb(22, 20, 20); 
+    margin-right: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+#contact .message h1{
+    text-align: center;
+    padding-left: 3px;
+    margin-top: 0px;
+    color: #fff;
+    font-size: 20px;
+    font-family:"ubuntu",sans-serif;
+
+}
+
+#contact .message .msg{
+    margin-left: 80px;
+    padding-left: 13px;
+    padding-top: 10px;
+    color: #fff;
+
+}
+
+.name{
+    font-family:"ubuntu",sans-serif;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+.surname{
+    font-family:"ubuntu",sans-serif;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+.eemail{
+    font-family:"ubuntu",sans-serif;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+.text{
+    font-family:"ubuntu",sans-serif;
+    font-size: 15px;
+   color: #fff;
+
+}
+
+
+#contact .message .btn{
+    
+    margin-top: 10px;
+    border-radius: 5px;
+     background: var(--gradient-color);
+    margin-left: 90px;
+} 
+
+
+.footerr{
+    background-color:black;
+    height: 30%;
+    width: 100%;
+}
+
+.footerr h6 {
+    color: #fff;
+ text-align: center;
+ font-size: 20px;
+
+}
+
+.footerr p{
+    text-align: center;
+    color:white;
+    margin-bottom: 4px;
+}  
+
+.socialmedia {
+    margin-top: 20px;
+   margin-left :600px ;
+    width: 30%;
+    height: 20%;
+    /* background-color: white; */
+}
+
+.socialmedia ul{
+    display: flex;
+}
+
+.socialmedia ul img{
+   border-radius: 50%;
+}
+.socialmedia .facebook{
+    
+    width: 60px;
+    height: 60px;
+    background:aliceblue;
+    border-radius: 50%;
+}
+.socialmedia .facebook img{
+    margin: 10px;
+}
+
+
+
+
+
+.socialmedia .instagram{
+    margin-left: 8px;
+    width: 60px;
+    height: 60px;
+    background:aliceblue;
+    border-radius: 50%;
+}
+.socialmedia .instagram img{
+       margin: 10px;
+   }
+
+.socialmedia .linkedin{
+    margin-left: 8px;
+
+    width: 60px;
+    height: 60px;
+    background:aliceblue;
+    border-radius: 50%;
+}
+.socialmedia .linkedin img{
+    
+       margin: 10px;
+   }
+.socialmedia .twitter{
+margin-left: 8px ;
+    width: 60px;
+    height: 60px;
+    background:aliceblue;
+    border-radius: 50%;
+}
+.socialmedia .twitter img{
+       margin: 9px;
+       
+   }
+
+   
+
+    
+
